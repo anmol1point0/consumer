@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.1.1" sequence="0" timestamp="1607057140359" analysisTimestamp="1607057140475" release="1.0-SNAPSHOT">
+  <Project projectName="crio-content (spotbugsMain)">
+    <Jar>/home/nmole/crio-content/build/classes/java/main/com/anmol/MyApplication.class</Jar>
+    <SrcDir>/home/nmole/crio-content/src/main/resources</SrcDir>
+    <SrcDir>/home/nmole/crio-content/src/main/java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 4 Dec 2020 10:15:40 +0530" total_classes="1" referenced_classes="14" total_bugs="0" total_size="6" num_packages="1" java_version="11.0.9" vm_version="11.0.9+11-Ubuntu-0ubuntu1.18.04.1" cpu_seconds="5.57" clock_seconds="3.88" peak_mbytes="135.52" alloc_mbytes="512.00" gc_seconds="0.07">
+    <FileStats path="com/anmol/MyApplication.java" bugCount="0" size="6"/>
+    <PackageStats package="com.anmol" total_bugs="0" total_types="1" total_size="6">
+      <ClassStats class="com.anmol.MyApplication" sourceFile="MyApplication.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="747" invocations="363" avgMicrosecondsPerInvocation="2057" maxMicrosecondsPerInvocation="182355" standardDeviationMicrosecondsPerInvocation="12305"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="480" invocations="361" avgMicrosecondsPerInvocation="1331" maxMicrosecondsPerInvocation="24292" standardDeviationMicrosecondsPerInvocation="2815"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="89" invocations="14" avgMicrosecondsPerInvocation="6399" maxMicrosecondsPerInvocation="34537" standardDeviationMicrosecondsPerInvocation="10074"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="48" invocations="2" avgMicrosecondsPerInvocation="24106" maxMicrosecondsPerInvocation="47651" standardDeviationMicrosecondsPerInvocation="23545"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

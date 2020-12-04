@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.1.1" sequence="0" timestamp="1607080061155" analysisTimestamp="1607080061380" release="1.0-SNAPSHOT">
+  <Project projectName="crio-content (spotbugsTest)">
+    <Jar>/home/nmole/crio-content/build/classes/java/test/com/anmol/MyApplicationTest.class</Jar>
+    <AuxClasspathEntry>/home/nmole/crio-content/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/nmole/crio-content/build/resources/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/nmole/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.2/4d10922ce4d9c4e22cef8ff5386cb273b9f12281/junit-jupiter-engine-5.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/nmole/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.2/52b70561f65bb397b054876f2d8c6f30b06c3581/junit-platform-engine-1.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/nmole/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.4.2/665d1c0daecb26c6210c872768000b417e7e52b6/junit-jupiter-api-5.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/nmole/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.2/37993dc807ca253aa347be8968a0ae7b70642dbc/junit-platform-commons-1.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/nmole/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d/apiguardian-api-1.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/nmole/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.1.1/efd9f971e91074491ea55b19f67b13470cf4fcdd/opentest4j-1.1.1.jar</AuxClasspathEntry>
+    <SrcDir>/home/nmole/crio-content/src/test/resources</SrcDir>
+    <SrcDir>/home/nmole/crio-content/src/test/java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 4 Dec 2020 16:37:41 +0530" total_classes="1" referenced_classes="14" total_bugs="0" total_size="6" num_packages="1" java_version="11.0.9" vm_version="11.0.9+11-Ubuntu-0ubuntu1.18.04.1" cpu_seconds="6.15" clock_seconds="3.96" peak_mbytes="139.87" alloc_mbytes="512.00" gc_seconds="0.05">
+    <FileStats path="com/anmol/MyApplicationTest.java" bugCount="0" size="6"/>
+    <PackageStats package="com.anmol" total_bugs="0" total_types="1" total_size="6">
+      <ClassStats class="com.anmol.MyApplicationTest" sourceFile="MyApplicationTest.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="541" invocations="336" avgMicrosecondsPerInvocation="1612" maxMicrosecondsPerInvocation="94717" standardDeviationMicrosecondsPerInvocation="7381"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="505" invocations="333" avgMicrosecondsPerInvocation="1517" maxMicrosecondsPerInvocation="29573" standardDeviationMicrosecondsPerInvocation="3418"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="67" invocations="14" avgMicrosecondsPerInvocation="4837" maxMicrosecondsPerInvocation="26558" standardDeviationMicrosecondsPerInvocation="7805"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="66" invocations="2" avgMicrosecondsPerInvocation="33347" maxMicrosecondsPerInvocation="65891" standardDeviationMicrosecondsPerInvocation="32543"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="47" invocations="299" avgMicrosecondsPerInvocation="160" maxMicrosecondsPerInvocation="2132" standardDeviationMicrosecondsPerInvocation="282"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="46" invocations="29" avgMicrosecondsPerInvocation="1605" maxMicrosecondsPerInvocation="28701" standardDeviationMicrosecondsPerInvocation="5291"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
